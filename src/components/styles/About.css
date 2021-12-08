@@ -1,0 +1,132 @@
+.about {
+  display: flex;
+  align-items:flex-start;
+  margin-bottom: 18rem;
+  opacity: 0.8;
+}
+
+.RLP {
+  width: 25%;
+  border-radius: 50%;
+  margin: 0 2rem 0 2rem;
+}
+
+.about__title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.about__text {
+  line-height: 1.5rem;
+  text-align: justify;
+  background-color: rgb(65, 65, 65);
+  padding: 0 2rem 0 2rem;
+  border-radius: 6px;
+}
+
+.salt-link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.salt-link:hover {
+  color: rgb(212, 170, 85);
+}
+
+.tech {
+  color: rgb(212, 170, 85);
+  background-color: white;
+  padding: 0 2rem 1rem 2rem;
+  margin: 0 2rem 0 2rem;
+  width: 65rem;
+  border-radius: 6px;
+}
+
+.tech__title {
+  font-weight: bold;
+  margin-bottom: 0;
+  padding: 0.8rem;
+  color: white;
+  background-color: rgb(212, 170, 85);
+}
+
+.tech__languages-title,
+.tech__tools-title {
+  margin-bottom: 0.5rem;
+}
+
+.tech__languages,
+.tech__tools {
+  color: rgb(65, 65, 65);
+  margin-top: 0;
+}
+
+.tech__text {
+  display: flex;
+  justify-content: center;
+  color: rgb(65, 65, 65);
+}
+
+.tech__frontend-list-item {
+  margin: 1rem 0 1rem 0;
+  width: 10rem;
+}
+
+.tech__languages-title,
+.tech__frontend-title,
+.tech__backend-title,
+.tech__tools-title {
+  color: rgb(65, 65, 65);
+  text-decoration: underline;
+  text-decoration-color: rgb(212, 170, 85);
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .RLP {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .about__text {
+    margin: 0 2rem 0 2rem;
+  }
+
+  .tech {
+    margin-top: 2rem;
+    width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .RLP {
+    margin-top: 5rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .RLP {
+    width: 60%;
+  }
+
+  .tech {
+    width: 15rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .about__text {
+    margin: 0 1rem 0 1rem;
+  }
+}
+
+

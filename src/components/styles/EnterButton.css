@@ -1,0 +1,14 @@
+button {
+  padding: 0.8rem;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.925);
+  border: 1px solid rgba(255, 255, 255, 0.925);
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.925);
+  color: black;
+}

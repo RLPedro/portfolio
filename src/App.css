@@ -1,0 +1,162 @@
+.App {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  margin-bottom: 10rem;
+}
+
+body {
+  background-image: url("/Users/ricar/Desktop/SALT backup/portfolio/src/imgs/RLP-forest-edited.png");
+  background-repeat: no-repeat;
+  /* background-size: 120%; */
+  background-position: -90px 100%;
+  background-attachment: fixed;
+  font-size: 1.3rem;
+}
+
+.home {
+  height: 100vh;
+}
+
+.header-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.github-icon,
+.instagram-icon,
+.linkedin-icon {
+  color: rgba(255, 255, 255, 0.925);
+  font-size: 1.8rem;
+  margin: 0 1rem 0 1rem;
+}
+
+.github-icon:hover,
+.instagram-icon:hover,
+.linkedin-icon:hover {
+  color: rgb(212, 170, 85);
+}
+
+.app__title {
+  padding: 1rem;
+  font-size: 2rem;
+  display: inline-block;
+  border: solid 1px transparent;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.925);
+}
+
+.app__title:hover {
+  border: solid 1px rgb(212, 170, 85);
+}
+
+.app__subtitle {
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.925);
+}
+
+.app__desc {
+  margin-top: 0;
+  color: rgb(212, 170, 85);
+}
+
+.app__presentation {
+  margin-top: 1rem;
+}
+
+.enter-button {
+  padding: 0.8rem;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.925);
+  font-size: 1.2rem;
+  border: 1px solid rgba(255, 255, 255, 0.925);
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+  cursor: pointer;
+}
+
+.enter-button:hover {
+  background-color: rgba(255, 255, 255, 0.925);
+  color: black;
+}
+
+@media only screen and (max-width: 1300px) {
+  body {
+    background-position: -300px 100%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  body {
+    background-position: -500px 100%;
+  }
+
+  .app__title {
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    background-position: -600px 100%;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .header-icons {
+    margin-top: 5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-position: -850px 100%;
+  }
+
+  .header-icons {
+    margin-bottom: 0;
+  }
+
+  .app__title {
+    padding: 1rem;
+    font-size: 2rem;
+    margin: 8rem 0 2rem 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-position: -950px 100%;
+  }
+
+  .header-icons {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .app__title {
+    padding: 1rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-position: -990px 100%;
+  }
+
+  .enter-button {
+    margin-top: 0.5rem;
+  }
+}
